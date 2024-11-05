@@ -102,6 +102,7 @@ div.camp > input {
     border-radius: 7px;
     padding: 6px;
     transform: translateY(-11px);
+    transition: 1s;
 }
 
 div.camp > input:focus-within {
