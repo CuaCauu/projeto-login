@@ -47,7 +47,7 @@ section#login {
     height: 560px;
     border-radius: 25px;
     box-shadow: 2px 4px 14px rgba(0, 0, 0, 0.822);
-    
+
     transition: width 0.5s, height 0.5s;
     transition-timing-function: ease;
 }
@@ -82,6 +82,10 @@ form > div.camp {
     height: 45px;
     border-radius: 7px;
     margin: 5px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div.camp > label { 
@@ -89,17 +93,10 @@ div.camp > label {
 }
 
 .material-icons.md-light { color: rgba(255, 255, 255, 0.733);
-font-size: 2em;
-width: 40px; 
-padding: 5px;
+    font-size: 2em;
+    width: 40px; 
+    padding: 5px;
 }
-
-div.camp {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 div.camp > input { 
     background-color: var(--cor02);
@@ -108,7 +105,9 @@ div.camp > input {
     height: 100%;
     border-radius: 7px;
     padding: 6px;
-    transition: 1s;
+    flex: auto;
+    
+    transition: 1s; 
 }
 
 div.camp > input:focus-within {
