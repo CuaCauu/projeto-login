@@ -36,7 +36,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row nowrap;
 }
 
 section#login {
@@ -97,7 +96,6 @@ padding: 5px;
 
 div.camp {
     display: flex;
-    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
 }
